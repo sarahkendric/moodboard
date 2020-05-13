@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>☆.｡:*moodboard.｡:*☆</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/plf5lcc.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <style>
+      body {
+          background: linear-gradient(-30deg, #FF33B4,  #FF6fCA, #8FFF84, #FF93ED, #FF6fCA);
+          background-size: 300% 300%;
+          animation: gradient 15s ease infinite;    
+          margin: 0;
+          height: 100vh;    
+          overflow: hidden;
+          cursor: url("cursor.png"), auto;
+        }
+
+
+        @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .item {
+        background-color: #FFF5FC;
+        padding: 15px;
+        padding-top: 0px;
+        width: 450px;
+        border-radius: 10px;
+        cursor: move;
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: auto;
+      }
+
+      .itemscroll {
+        background-color: #FFF5FC;
+        padding: 15px;
+        padding-top: 5px;
+        width: 450px;
+        height: 600px;
+        overflow: scroll;
+        border-radius: 10px;
+        cursor: move;
+        position: absolute;
+        z-index: 9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: auto;
+      }
+
+      p {
+        font-family: t26-carbon, monospace;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      a:link {
+        color:#FF63C6;
+      }
+
+      a:hover {
+       color: #8FFF84;
+      }
+
+      a:visited {
+        color: #FF00B3;
+      }
+
+      #bio {
+        position: absolute;
+        font-family: t26-carbon, monospace;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 15px;
+        background-color: #FFF5FC;
+        padding: 15px;
+        padding-top: 5px;
+        width: 290px;
+        border-radius: 10px;
+        text-align: center;
+        left: 74vw;
+        top: 5vh;
+        line-height: 1.3em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      #item1 {
+        left: 39vw;
+        top: 14vh;
+        z-index: 20;
+      }
+
+      #item2 {
+        left: 31vw;
+        top: 10vh;
+        z-index: 19;
+      }
+
+      #item3 {
+        left: 27.5vw;
+        top: 13vh;
+        z-index: 18;
+      }
+
+      #item4 {
+        left: 6vw;
+        top: 5vh;
+        z-index: 17;
+      }
+
+      #item5 {
+        left: -3vw;
+        top: 12vh;
+        z-index: 16;
+      }
+
+      #item6 {
+        left: 6vw;
+        top: 6vh;
+        z-index: 15;
+      }
+
+      #item7 {
+        left: -3vw;
+        top: 12vh;
+        z-index: 14;
+      }
+
+      #item8 {
+        left: 6vw;
+        top: 6vh;
+        z-index: 13;
+      }
+
+      #item9 {
+        left: 2vw;
+        top: 13vh;
+        z-index: 12;
+      }
+
+      #item10 {
+        left: 6vw;
+        top: 6vh;
+        z-index: 11;
+      }
+
+      .button {
+        background-color: #FFACE1;
+        height: 32px;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="bio">
+      <p>☆.｡:* SCARY SPICE'S MOOD BOARD .｡:*☆<br>
+      🍓💌💗🎱💒🦷🍒🍨🌈🌷🕊🌹<br>
+      ----------------------------------------<br>
+      <a href="https://www.instagram.com/scaryspice666/">@scaryspice666</a> is a full-time student @ <a href="https://www.newschool.edu/parsons/">Parsons</a> in NYC. Here are some things i love 2 look @.
+    </p>
+    </div>
+
+
+    <div class="item" id="item1">
+      <p><button class="button" id="button"><p>X</p></button> &nbsp;<a href="https://www.instagram.com/brrch_floral/"><b>@brrch_floral</b> * Brittany Asch * Florist</a></p>
+      <img src="brrch.png" width="450px">
+    </div>
+
+    <div class="item" id="item2">
+      <p> <button class="button" id="button2"><p>X</p></button> &nbsp;<a href="https://www.instagram.com/wifiwifey/?utm_source=ig_embed" target="_blank"><b>@wifiwifey</b></a></p>
+      <img src="money.png" width="450px">
+    </div>
+
+    <div class="item" id="item3">
+      <p><button class="button" id="button3"><p>X</p></button> &nbsp;<a href="https://www.instagram.com/junobirch/" target="_blank"><b>@junobirch</b> * Juno Birch * Drag Artist</a></p>
+      <img src="juno.png" width="450px">
+    </div>
+
+    <div class="itemscroll" id="item4">
+      <p><button class="button" id="button4"><p>X</p></button> &nbsp;<a href="https://www.youtube.com/watch?v=7T2RonyJ_Ts&list=PL3vOBlvbF1qjL5303J4Y_6vZoz4gxarAf&index=6" target="_blank">Mother's Daughter by Miley Cyrus</a></p>
+      <img src="miley2.gif" width="450px">
+      <img src="miley1.gif" width="450px">
+      <img src="miley3.gif" width="450px">
+    </div>
+
+    <div class="itemscroll" id="item5">
+      <p><button class="button" id="button5"><p>X</p></button>&nbsp;<a href="http://www.charlotterutherford.com" target="_blank"><b>@charlie__chops</b> * Charlotte Rutherford * LA Photographer</a></p>
+      <img src="char2.jpg" width="450px">
+      <img src="char1.jpg" width="450px">
+      <img src="char3.png" width="450px">
+    </div>
+
+    <div class="itemscroll" id="item6">
+      <p><button class="button" id="button6"><p>X</p></button>&nbsp;<a href="https://youtu.be/WAo8X-rIt8k" target="_blank">Claws by Charli XCX * dir. Charlotte Rutherford</a></p>
+      <img src="claws2.jpg" width="450px">
+      <img src="claws1.jpg" width="450px">
+      <img src="claws3.jpg" width="450px">
+    </div>
+
+    <div class="item" id="item7">
+      <p><button class="button" id="button7"><p>X</p></button>&nbsp;<a href="https://www.instagram.com/lucyartdrop/" target="_blank"><b>@lucyartdrop</b> * LUCY LONDON MCDONALD * Visual Artist</a></p>
+      <img src="lucy.png" width="450px">
+    </div>
+
+    <div class="itemscroll" id="item8">
+      <p><button class="button" id="button8"><p>X</p></button>&nbsp;<a href="https://www.youtube.com/watch?v=pUhFA1xVRPc" target="_blank">What Do You Like In Me by Nasty Cherry * dir.  Indiana Piorek </a></p>
+      <img src="cherry1.png" width="450px">
+      <img src="cherry2.png" width="450px">
+      <img src="cherry3.png" width="450px">
+      <img src="cherry4.png" width="450px">
+    </div>
+
+    <div class="item" id="item9">
+      <p><button class="button" id="button9"><p>X</p></button>&nbsp;<a href="https://www.instagram.com/xuebing.du/?hl=en" target="_blank"><b>@xuebing.du</b> * Xuebing Du * "Mother of Pearl" Photo Series</a></p>
+      <img src="flower.png" width="450px">
+    </div>
+
+    <div class="itemscroll" id="item10">
+      <p><button class="button" id="button10"><p>X</p></button>&nbsp;<a href="https://www.michaklein.com" target="_blank"><b>Micha Klein</b> * New Media Artist</a></p>
+      <img src="micha.png" width="450px">
+      <img src="micha2.jpg" width="450px">
+      <img src="micha3.jpg" width="450px">
+    </div>
+
+
+
+<script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById("item1"));
+dragElement(document.getElementById("item2"));
+dragElement(document.getElementById("item3"));
+dragElement(document.getElementById("item4"));
+dragElement(document.getElementById("item5"));
+dragElement(document.getElementById("item6"));
+dragElement(document.getElementById("item7"));
+dragElement(document.getElementById("item8"));
+dragElement(document.getElementById("item9"));
+dragElement(document.getElementById("item10"));
+
+document.getElementById("button");
+button.onclick = function() {
+  document.getElementById("item1").style.display = "none";
+}
+document.getElementById("button2");
+button2.onclick = function() {
+  document.getElementById("item2").style.display = "none";
+}
+document.getElementById("button3");
+button3.onclick = function() {
+  document.getElementById("item3").style.display = "none";
+}
+document.getElementById("button4");
+button4.onclick = function() {
+  document.getElementById("item4").style.display = "none";
+}
+document.getElementById("button5");
+button5.onclick = function() {
+  document.getElementById("item5").style.display = "none";
+}
+document.getElementById("button6");
+button6.onclick = function() {
+  document.getElementById("item6").style.display = "none";
+}
+document.getElementById("button7");
+button7.onclick = function() {
+  document.getElementById("item7").style.display = "none";
+}
+document.getElementById("button8");
+button8.onclick = function() {
+  document.getElementById("item8").style.display = "none";
+}
+document.getElementById("button9");
+button9.onclick = function() {
+  document.getElementById("item9").style.display = "none";
+}
+document.getElementById("button10");
+button10.onclick = function() {
+  document.getElementById("item10").style.display = "none";
+}
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+  
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+  
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+  var colour="white"; // "random" can be replaced with any valid colour ie: "red"...
+var sparkles=100;// increase of decrease for number of sparkles falling
+
+var x=ox=400;
+var y=oy=300;
+var swide=800;
+var shigh=600;
+var sleft=sdown=0;
+var tiny=new Array();
+var star=new Array();
+var starv=new Array();
+var starx=new Array();
+var stary=new Array();
+var tinyx=new Array();
+var tinyy=new Array();
+var tinyv=new Array();
+
+colours=new Array('#FFACE1','FF2FB4','#ffffff', '#FF64C4')
+
+n = 10;
+y = 0;
+x = 0;
+n6=(document.getElementById&&!document.all);
+ns=(document.layers);
+ie=(document.all);
+d=(ns||ie)?'document.':'document.getElementById("';
+a=(ns||n6)?'':'all.';
+n6r=(n6)?'")':'';
+s=(ns)?'':'.style';
+
+if (ns){
+  for (i = 0; i < n; i++)
+    document.write('<layer name="dots'+i+'" top=0 left=0 width='+i/2+' height='+i/2+' bgcolor=#ff0000></layer>');
+}
+
+if (ie)
+  document.write('<div id="con" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+
+if (ie||n6){
+  for (i = 0; i < n; i++)
+    document.write('<div id="dots'+i+'" style="position:absolute;top:0px;left:0px;width:'+i/2+'px;height:'+i/2+'px;background:#ff0000;font-size:'+i/2+'"></div>');
+}
+
+if (ie)
+  document.write('</div></div>');
+(ns||n6)?window.captureEvents(Event.MOUSEMOVE):0;
+
+function Mouse(evnt){
+
+  y = (ns||n6)?evnt.pageY+4 - window.pageYOffset:event.y+4;
+  x = (ns||n6)?evnt.pageX+1:event.x+1;
+}
+
+(ns)?window.onMouseMove=Mouse:document.onmousemove=Mouse;
+
+function animate(){
+
+  o=(ns||n6)?window.pageYOffset:0;
+
+  if (ie)con.style.top=document.body.scrollTop + 'px';
+
+  for (i = 0; i < n; i++){
+
+    var temp1 = eval(d+a+"dots"+i+n6r+s);
+
+    randcolours = colours[Math.floor(Math.random()*colours.length)];
+
+    (ns)?temp1.bgColor = randcolours:temp1.background = randcolours; 
+
+    if (i < n-1){
+
+      var temp2 = eval(d+a+"dots"+(i+1)+n6r+s);
+      temp1.top = parseInt(temp2.top) + 'px';
+      temp1.left = parseInt(temp2.left) + 'px';
+
+    } 
+    else{
+
+      temp1.top = y+o + 'px';
+      temp1.left = x + 'px';
+    }
+  }
+
+  setTimeout("animate()",10);
+}
+
+animate();
+
+window.onload=function() { if (document.getElementById) {
+  var i, rats, rlef, rdow;
+  for (var i=0; i<sparkles; i++) {
+    var rats=createDiv(3, 3);
+    rats.style.visibility="hidden";
+    rats.style.zIndex="999";
+    document.body.appendChild(tiny[i]=rats);
+    starv[i]=0;
+    tinyv[i]=0;
+    var rats=createDiv(5, 5);
+    rats.style.backgroundColor="transparent";
+    rats.style.visibility="hidden";
+    rats.style.zIndex="999";
+    var rlef=createDiv(1, 5);
+    var rdow=createDiv(5, 1);
+    rats.appendChild(rlef);
+    rats.appendChild(rdow);
+    rlef.style.top="2px";
+    rlef.style.left="0px";
+    rdow.style.top="0px";
+    rdow.style.left="2px";
+    document.body.appendChild(star[i]=rats);
+  }
+  set_width();
+  sparkle();
+}}
+
+function sparkle() {
+  var c;
+  if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
+    ox=x;
+    oy=y;
+    for (c=0; c<sparkles; c++) if (!starv[c]) {
+      star[c].style.left=(starx[c]=x)+"px";
+      star[c].style.top=(stary[c]=y+1)+"px";
+      star[c].style.clip="rect(0px, 5px, 5px, 0px)";
+      star[c].childNodes[0].style.backgroundColor=star[c].childNodes[1].style.backgroundColor=(colour=="random")?newColour():colour;
+      star[c].style.visibility="visible";
+      starv[c]=50;
+      break;
+    }
+  }
+  for (c=0; c<sparkles; c++) {
+    if (starv[c]) update_star(c);
+    if (tinyv[c]) update_tiny(c);
+  }
+  setTimeout("sparkle()", 40);
+}
+
+function update_star(i) {
+  if (--starv[i]==25) star[i].style.clip="rect(1px, 4px, 4px, 1px)";
+  if (starv[i]) {
+    stary[i]+=1+Math.random()*3;
+    starx[i]+=(i%5-2)/5;
+    if (stary[i]<shigh+sdown) {
+      star[i].style.top=stary[i]+"px";
+      star[i].style.left=starx[i]+"px";
+    }
+    else {
+      star[i].style.visibility="hidden";
+      starv[i]=0;
+      return;
+    }
+  }
+  else {
+    tinyv[i]=50;
+    tiny[i].style.top=(tinyy[i]=stary[i])+"px";
+    tiny[i].style.left=(tinyx[i]=starx[i])+"px";
+    tiny[i].style.width="2px";
+    tiny[i].style.height="2px";
+    tiny[i].style.backgroundColor=star[i].childNodes[0].style.backgroundColor;
+    star[i].style.visibility="hidden";
+    tiny[i].style.visibility="visible"
+  }
+}
+
+function update_tiny(i) {
+  if (--tinyv[i]==25) {
+    tiny[i].style.width="1px";
+    tiny[i].style.height="1px";
+  }
+  if (tinyv[i]) {
+    tinyy[i]+=1+Math.random()*3;
+    tinyx[i]+=(i%5-2)/5;
+    if (tinyy[i]<shigh+sdown) {
+      tiny[i].style.top=tinyy[i]+"px";
+      tiny[i].style.left=tinyx[i]+"px";
+    }
+    else {
+      tiny[i].style.visibility="hidden";
+      tinyv[i]=0;
+      return;
+    }
+  }
+  else tiny[i].style.visibility="hidden";
+}
+
+document.onmousemove=mouse;
+function mouse(e) {
+  if (e) {
+    y=e.pageY;
+    x=e.pageX;
+  }
+  else {
+    set_scroll();
+    y=event.y+sdown;
+    x=event.x+sleft;
+  }
+}
+
+window.onscroll=set_scroll;
+function set_scroll() {
+  if (typeof(self.pageYOffset)=='number') {
+    sdown=self.pageYOffset;
+    sleft=self.pageXOffset;
+  }
+  else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
+    sdown=document.body.scrollTop;
+    sleft=document.body.scrollLeft;
+  }
+  else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+    sleft=document.documentElement.scrollLeft;
+    sdown=document.documentElement.scrollTop;
+  }
+  else {
+    sdown=0;
+    sleft=0;
+  }
+}
+
+window.onresize=set_width;
+function set_width() {
+  var sw_min=999999;
+  var sh_min=999999;
+  if (document.documentElement && document.documentElement.clientWidth) {
+    if (document.documentElement.clientWidth>0) sw_min=document.documentElement.clientWidth;
+    if (document.documentElement.clientHeight>0) sh_min=document.documentElement.clientHeight;
+  }
+  if (typeof(self.innerWidth)=='number' && self.innerWidth) {
+    if (self.innerWidth>0 && self.innerWidth<sw_min) sw_min=self.innerWidth;
+    if (self.innerHeight>0 && self.innerHeight<sh_min) sh_min=self.innerHeight;
+  }
+  if (document.body.clientWidth) {
+    if (document.body.clientWidth>0 && document.body.clientWidth<sw_min) sw_min=document.body.clientWidth;
+    if (document.body.clientHeight>0 && document.body.clientHeight<sh_min) sh_min=document.body.clientHeight;
+  }
+  if (sw_min==999999 || sh_min==999999) {
+    sw_min=800;
+    sh_min=600;
+  }
+  swide=sw_min;
+  shigh=sh_min;
+}
+
+function createDiv(height, width) {
+  var div=document.createElement("div");
+  div.style.position="absolute";
+  div.style.height=height+"px";
+  div.style.width=width+"px";
+  div.style.overflow="hidden";
+  return (div);
+}
+
+function newColour() {
+  var c=new Array();
+  c[0]=255;
+  c[1]=Math.floor(Math.random()*256);
+  c[2]=Math.floor(Math.random()*(256-c[1]/2));
+  c.sort(function(){return (0.5 - Math.random());});
+  return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
+}
+// ]]>
+
+
+
+
+</script>
+
+
+  </body>
+
+
+</html>
